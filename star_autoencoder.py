@@ -20,7 +20,7 @@ from sklearn.metrics import roc_auc_score
 CONFIG = {
     # 数据路径
     "normal_dir": r"D:\Pycharm_proj\PythonProject\data\normal",      # 正常星体 FITS 目录
-    "anomaly_dir": r"D:\Pycharm_proj\PythonProject\data\anomaly",    # 异常数据 FITS 目录（验证用，可选）
+    "anomaly_dir": r"None",    # 异常数据 FITS 目录（验证用，可选）
     "model_save_path": "./star_ae_model.pth",
 
     # 图像参数
